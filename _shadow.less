@@ -1,0 +1,13 @@
+.box-shadow(@shadow-x: 0, @shadow-y: 0, @shadow-rad: 10px, @shadow-color: #CCC) {
+  -webkit-box-shadow: @shadow-x @shadow-y @shadow-rad @shadow-color;
+  -moz-box-shadow: @shadow-x @shadow-y @shadow-rad @shadow-color;
+  -o-box-shadow: @shadow-x @shadow-y @shadow-rad @shadow-color;
+  box-shadow: @shadow-x @shadow-y @shadow-rad @shadow-color;
+}
+
+.box-shadow-inset(@shadow-x: 0, @shadow-y: 0, @shadow-rad: 10px, @shadow-color: #CCC) {
+  -webkit-box-shadow: inset @shadow-x @shadow-y @shadow-rad @shadow-color;
+  -moz-box-shadow: inset @shadow-x @shadow-y @shadow-rad @shadow-color;
+  -o-box-shadow: inset @shadow-x @shadow-y @shadow-rad @shadow-color;
+  box-shadow: inset @shadow-x @shadow-y @shadow-rad @shadow-color;
+}

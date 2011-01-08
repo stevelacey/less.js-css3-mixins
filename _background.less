@@ -1,0 +1,14 @@
+.background-gradient(@from: #000, @to: #EEE) {
+  background: @from;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(@from), to(@to));
+  background-image: -moz-linear-gradient(top, @from, @to);
+}
+
+.background-origin(@background-origin: border-box) {
+  -webkit-background-origin: @background-origin;
+  -webkit-background-clip: @background-origin;
+  -moz-background-origin: @background-origin;
+  -moz-background-clip: @background-origin;
+  background-origin: @background-origin;
+  background-clip: @background-origin;
+}

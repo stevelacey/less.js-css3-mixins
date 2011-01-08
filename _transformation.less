@@ -1,0 +1,38 @@
+.transform (@value: scale(1)) {
+  -webkit-transform: @value;
+  -moz-transform: @value;
+  -o-transform: @value;
+  transform: @value;
+}
+
+.skew (@angle-x: 35, @angle-y: 0) {
+  -webkit-transform: skew(formatstring("{0}deg", @angle-x), formatstring("{0}deg", @angle-y));
+  -moz-transform: skew(formatstring("{0}deg", @angle-x), formatstring("{0}deg", @angle-y));
+  -o-transform: skew(formatstring("{0}deg", @angle-x), formatstring("{0}deg", @angle-y));
+  -ms-transform: skew(formatstring("{0}deg", @angle-x), formatstring("{0}deg", @angle-y));
+  transform: skew(formatstring("{0}deg", @angle-x), formatstring("{0}deg", @angle-y));
+}
+
+.scale (@scale-x: 1) {
+  -webkit-transform: scale(@scale-x);
+  -moz-transform: scale(@scale-x);
+  -o-transform: scale(@scale-x);
+  -ms-transform: scale(@scale-x);
+  transform: scale(@scale-x);
+}
+
+.rotate (@angle: 35) {
+  -webkit-transform: rotate(formatstring("{0}deg", @deg));
+  -moz-transform: rotate(formatstring("{0}deg", @deg));
+  -o-transform: rotate(formatstring("{0}deg", @deg));
+  -ms-transform: rotate(formatstring("{0}deg", @deg));
+  transform: rotate(formatstring("{0}deg", @deg));
+}
+
+.translate (@move-x: 10px, @move-y: 10px) {
+  -webkit-transform: translate(@move-x, @move-y);
+  -moz-transform: translate(@move-x, @move-y);
+  -o-transform: translate(@move-x, @move-y);
+  -ms-transform: translate(@move-x, @move-y);
+  transform: translate(@move-x, @move-y);
+}
