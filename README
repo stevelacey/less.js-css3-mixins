@@ -6,5 +6,3 @@ Simply the collection of CSS3 mixins I've accumulated for less.js, covering most
 Throw these in your less directory and import the main partial.
 
 @import "css3/_main";
-
-Note: These won't compile via the legacy Ruby parser.
