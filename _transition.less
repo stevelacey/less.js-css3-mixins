@@ -1,76 +1,168 @@
-.transition (@range: all, @time: 0.2s, @ease: ease-in-out) {
-  -webkit-transition: @range @time @ease;
-  -moz-transition: @range @time @ease;
-  -o-transition: @range @time @ease;
-  transition: @range @time @ease;
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+.transition (   @range: all, 
+                @time: 0.2s, 
+                @ease: ease-in-out) 
+{
+    -webkit-transition: @range @time @ease;
+    -moz-transition:    @range @time @ease;
+    -o-transition:      @range @time @ease;
+    transition:         @range @time @ease;
 }
 
-.transition-property (@tp: all) {
-  -webkit-transition-property: @tp;
-  -moz-transition-property: @tp;
-  -o-transition-property: @tp;
-  transition-property: @tp;
+
+
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+.transition-property (@tp: all) 
+{
+    -webkit-transition-property:@tp;
+    -moz-transition-property:   @tp;
+    -o-transition-property:     @tp;
+    transition-property:        @tp;
 }
 
-.transition-property-two (@tp1, @tp2) {
-  -webkit-transition-property: @tp1, @tp2;
-  -moz-transition-property: @tp1, @tp2;
-  -o-transition-property: @tp1, @tp2;
-  transition-property: @tp1, @tp2;
+
+
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+.transition-property-two (@tp1, @tp2) 
+{
+    -webkit-transition-property:@tp1, @tp2;
+    -moz-transition-property:   @tp1, @tp2;
+    -o-transition-property:     @tp1, @tp2;
+    transition-property:        @tp1, @tp2;
 }
 
-.transition-property-three (@tp1, @tp2, @tp3) {
-  -webkit-transition-property: @tp1, @tp2, @tp3;
-  -moz-transition-property: @tp1, @tp2, @tp3;
-  -o-transition-property: @tp1, @tp2, @tp3;
-  transition-property: @tp1, @tp2, @tp3;
+
+
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+.transition-property-three (@tp1, @tp2, @tp3) 
+{
+    -webkit-transition-property:@tp1, @tp2, @tp3;
+    -moz-transition-property:   @tp1, @tp2, @tp3;
+    -o-transition-property:     @tp1, @tp2, @tp3;
+    transition-property:        @tp1, @tp2, @tp3;
 }
 
-.transition-duration (@td: 0.2s) {
-  -webkit-transition-duration: @td;
-  -moz-transition-duration: @td;
-  -o-transition-duration: @td;
-  transition-duration: @td;
+
+
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+.transition-duration (@td: 0.2s) 
+{
+    -webkit-transition-duration:@td;
+    -moz-transition-duration:   @td;
+    -o-transition-duration:     @td;
+    transition-duration:        @td;
 }
 
-.transition-duration-two (@td1: 0.2s, @td2: 0.2s) {
-  -webkit-transition-duration: @td1, @td2;
-  -moz-transition-duration: @td1, @td2;
-  -o-transition-duration: @td1, @td2;
-  transition-duration: @td1, @td2;
+
+
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+.transition-duration-two (@td1: 0.2s, @td2: 0.2s) 
+{
+    -webkit-transition-duration:@td1, @td2;
+    -moz-transition-duration:   @td1, @td2;
+    -o-transition-duration:     @td1, @td2;
+    transition-duration:        @td1, @td2;
 }
 
-.transition-duration-three (@td1: 0.2s, @td2: 0.2s, @td3: 0.2s) {
-  -webkit-transition-duration: @td1, @td2, @td3;
-  -moz-transition-duration: @td1, @td2, @td3;
-  -o-transition-duration: @td1, @td2, @td3;
-  transition-duration: @td1, @td2, @td3;
+
+
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+.transition-duration-three (@td1: 0.2s, 
+                            @td2: 0.2s, 
+                            @td3: 0.2s) 
+{
+    -webkit-transition-duration:@td1, @td2, @td3;
+    -moz-transition-duration:   @td1, @td2, @td3;
+    -o-transition-duration:     @td1, @td2, @td3;
+    transition-duration:        @td1, @td2, @td3;
 }
 
-.transition-timing-function (@tf: default) {
-  -webkit-transition-timing-function: @tf;
-  -moz-transition-timing-function: @tf;
-  -o-transition-timing-function: @tf;
-  transition-timing-function: @tf;
+
+
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+.transition-timing-function (@tf: default) 
+{
+    -webkit-transition-timing-function: @tf;
+    -moz-transition-timing-function:    @tf;
+    -o-transition-timing-function:      @tf;
+    transition-timing-function:         @tf;
 }
 
-.transition-timing-function-two (@tf1: default, @tf2: default) {
-  -webkit-transition-timing-function: @tf1, @tf2;
-  -moz-transition-timing-function: @tf1, @tf2;
-  -o-transition-timing-function: @tf1, @tf2;
-  transition-timing-function: @tf1, @tf2;
+
+
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+.transition-timing-function-two (@tf1: default, @tf2: default) 
+{
+    -webkit-transition-timing-function: @tf1, @tf2;
+    -moz-transition-timing-function:    @tf1, @tf2;
+    -o-transition-timing-function:      @tf1, @tf2;
+    transition-timing-function:         @tf1, @tf2;
 }
 
-.transition-timing-function-three (@tf1: default, @tf2: default, @tf3: default) {
-  -webkit-transition-timing-function: @tf1, @tf2, @tf3;
-  -moz-transition-timing-function: @tf1, @tf2, @tf3;
-  -o-transition-timing-function: @tf1, @tf2, @tf3;
-  transition-timing-function: @tf1, @tf2, @tf3;
+
+
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+.transition-timing-function-three ( @tf1: default, 
+                                    @tf2: default, 
+                                    @tf3: default) 
+{
+    -webkit-transition-timing-function: @tf1, @tf2, @tf3;
+    -moz-transition-timing-function:    @tf1, @tf2, @tf3;
+    -o-transition-timing-function:      @tf1, @tf2, @tf3;
+    transition-timing-function:         @tf1, @tf2, @tf3;
 }
 
-.no-transition () {
-  -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+
+
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+.no-transition () 
+{
+    -webkit-transition: none;
+    -moz-transition:    none;
+    -o-transition:      none;
+    transition:         none;
 }
